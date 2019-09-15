@@ -1,10 +1,16 @@
 ## git-demo文件说明
 
+git --version  // 查看 git 版本
+
 git config --global user.name 提交人姓名     // 配置姓名
 
 git config --global user.email 提交人邮箱     // 配置邮箱
 
 git config --list     // 查看配置信息
+
+通过命令行的形式进行的配置，也可以通过修改配置文件来进行修改，文件名字叫 `.gitconfig`，位置在 C:\Users\系统用户名\\.gitconfig
+
+
 
 git init 	// 初始化本地仓库
 
@@ -33,6 +39,10 @@ git merge 来源分支     // 合并分支
 git branch -d 分支名称    // 删除分支
 
 git branch -D 分支名称   // 强制删除
+
+git stash   // 存储临时改动
+
+git stash pop  // 恢复改动
 
 git clone 地址     //  克隆远程仓库
 
