@@ -40,7 +40,7 @@ git branch -d 分支名称    // 删除分支
 
 git branch -D 分支名称   // 强制删除
 
-git checkout -b 分支名称    // 创建并切换分支命令
+git checkout -b 分支名称    // 创建并切换分支
 
 git stash   // 存储临时改动
 
